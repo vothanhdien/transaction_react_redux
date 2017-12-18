@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.info-hide{
+  display: block;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  visibility: hidden;
+}
+.info-error{
+  background-color: #ff3f2b;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  visibility: visible;
+}
+.info-success{
+  background-color: #6fff4b;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  visibility: visible;
+}
+
+.none{
+  list-style-type: none;
+}
+
+.option{
+  width: 150px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.money-value{
+  color: yellow;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.walletid{
+  width: 300px;
+}
